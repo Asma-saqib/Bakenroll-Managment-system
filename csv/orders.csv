@@ -1,0 +1,61 @@
+id,customer_id,channel,status,notes,total_amount,created_at
+1,1,whatsapp,delivered,Extra spices please,1000.0,2025-06-01 10:00:00
+2,2,instagram,baking,,900.0,2025-06-02 11:30:00
+3,3,whatsapp,pending,Extra Salt,3500.0,2025-06-03 14:00:00
+4,4,instagram,ready,,550.0,2025-06-04 09:15:00
+5,5,whatsapp,delivered,,1400.0,2025-06-05 16:45:00
+6,47,walkin,cancelled,No onions,2100.0,2025-06-02 10:00:00
+7,27,whatsapp,delivered,Extra Salt,1200.0,2025-06-03 17:00:00
+8,27,instagram,delivered,,8100.0,2025-06-04 17:00:00
+9,26,instagram,delivered,Call before delivery,550.0,2025-06-05 11:00:00
+10,6,instagram,delivered,Less oil,3700.0,2025-06-06 10:00:00
+11,18,walkin,delivered,Well done,7150.0,2025-06-07 14:00:00
+12,9,walkin,pending,,4300.0,2025-06-08 12:00:00
+13,11,whatsapp,pending,Extra Salt,4300.0,2025-06-09 10:00:00
+14,34,instagram,baking,No onions,500.0,2025-06-10 14:00:00
+15,1,walkin,cancelled,,5300.0,2025-06-11 12:00:00
+16,8,whatsapp,ready,,1500.0,2025-06-12 11:00:00
+17,6,whatsapp,delivered,Pack separately,3000.0,2025-06-13 10:00:00
+18,2,instagram,delivered,,6750.0,2025-06-14 12:00:00
+19,20,instagram,baking,Less oil,600.0,2025-06-15 13:00:00
+20,16,instagram,cancelled,Well done,1000.0,2025-06-16 18:00:00
+21,25,instagram,pending,Extra Salt,1050.0,2025-06-17 14:00:00
+22,26,instagram,cancelled,Less oil,1800.0,2025-06-18 14:00:00
+23,10,walkin,pending,Extra Salt,1000.0,2025-06-19 16:00:00
+24,24,walkin,delivered,,3500.0,2025-06-20 13:00:00
+25,1,walkin,pending,,3000.0,2025-06-21 15:00:00
+26,46,instagram,delivered,Less oil,1050.0,2025-06-22 13:00:00
+27,40,whatsapp,pending,Call before delivery,1200.0,2025-06-23 17:00:00
+28,4,walkin,delivered,Call before delivery,3200.0,2025-06-24 10:00:00
+29,50,whatsapp,delivered,Call before delivery,3600.0,2025-06-25 17:00:00
+30,22,whatsapp,delivered,Call before delivery,600.0,2025-06-26 11:00:00
+31,48,whatsapp,delivered,Extra Salt,5100.0,2025-06-27 10:00:00
+32,9,walkin,delivered,,4050.0,2025-06-28 13:00:00
+33,26,whatsapp,pending,,5000.0,2025-06-29 14:00:00
+34,23,walkin,delivered,,5500.0,2025-06-30 18:00:00
+35,10,walkin,pending,Pack separately,4100.0,2025-07-01 18:00:00
+36,13,whatsapp,baking,Well done,5600.0,2025-07-02 12:00:00
+37,9,whatsapp,delivered,Call before delivery,3200.0,2025-07-03 15:00:00
+38,6,instagram,delivered,Less oil,1400.0,2025-07-04 11:00:00
+39,32,instagram,ready,Extra spices please,3300.0,2025-07-05 11:00:00
+40,42,instagram,cancelled,Less oil,4700.0,2025-07-06 18:00:00
+41,31,instagram,delivered,Well done,1000.0,2025-07-07 13:00:00
+42,29,whatsapp,baking,Extra Salt,2500.0,2025-07-08 13:00:00
+43,47,whatsapp,cancelled,Well done,3600.0,2025-07-09 18:00:00
+44,16,walkin,cancelled,No onions,3600.0,2025-07-10 12:00:00
+45,19,walkin,cancelled,No onions,4600.0,2025-07-11 11:00:00
+46,18,whatsapp,ready,Extra Salt,5500.0,2025-07-12 12:00:00
+47,12,instagram,baking,Call before delivery,3200.0,2025-07-13 11:00:00
+48,36,walkin,ready,Call before delivery,2400.0,2025-07-14 12:00:00
+49,33,instagram,baking,Extra Salt,5100.0,2025-07-15 14:00:00
+50,35,whatsapp,pending,Pack separately,600.0,2025-07-16 10:00:00
+51,37,walkin,cancelled,No onions,4500.0,2025-07-17 11:00:00
+52,47,whatsapp,baking,Extra spices please,3000.0,2025-07-18 18:00:00
+53,36,whatsapp,delivered,Less oil,3000.0,2025-07-19 17:00:00
+54,13,instagram,ready,Pack separately,1100.0,2025-07-20 12:00:00
+55,43,instagram,delivered,Well done,1050.0,2025-07-21 16:00:00
+56,33,walkin,ready,,5300.0,2025-07-22 15:00:00
+57,4,instagram,cancelled,Extra Salt,3000.0,2025-07-23 15:00:00
+58,9,instagram,cancelled,Less oil,2100.0,2025-07-24 14:00:00
+59,30,instagram,cancelled,Extra Salt,700.0,2025-07-25 12:00:00
+60,33,whatsapp,delivered,,3150.0,2025-07-26 15:00:00

@@ -1,0 +1,10 @@
+sku,name,category_id,price,stock_qty,reorder_threshold
+BNR-01,Chicken Rolls,1,550.0,10,2
+BNR-02,Vegetable Rolls,1,500.0,10,2
+BNR-03,Chicken Cheese Box,2,700.0,5,1
+BNR-04,Chicken Shami,3,1500.0,4,1
+BNR-05,Beef Shami,3,1000.0,5,1
+BNR-06,Chicken Nuggets,5,600.0,3,1
+BNR-07,Chicken Cheese Samosa,4,600.0,5,1
+BNR-08,Chicken Aloo Samosa,4,500.0,5,1
+BNR-09,Classic Meatballs,6,1000.0,2,1
