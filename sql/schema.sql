@@ -83,7 +83,7 @@ CREATE TABLE IF NOT EXISTS payments (
 -- Default admin user (password: admin123)
 -- Hash generated with bcryptjs rounds=10
 INSERT IGNORE INTO users (username, password_hash) VALUES
-  ('admin', '$2a$10$N9qo8uLOickgx2ZMRZoMyeIjZAgcfl7p92ldGxad68LJZdL17lhWy');
+  ('admin', '$2a$10$b3/FD22U8Kqpn8pqaRzYReoCs2pNQ.WCc2axJIrw5Ze7ccAY3QRti');
 
 -- Categories
 INSERT IGNORE INTO categories (id, name) VALUES

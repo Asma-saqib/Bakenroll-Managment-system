@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,29 +10,122 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="/css/style.css" />
   <style>
-    body { display:flex; align-items:center; justify-content:center; min-height:100vh; background: linear-gradient(135deg,#412402 0%,#633806 40%,#BA7517 100%); }
-    .login-card { background:#fff; border-radius:20px; padding:48px 40px; width:100%; max-width:400px; box-shadow:0 24px 64px rgba(65,36,2,.35); }
-    .login-logo { text-align:center; margin-bottom:32px; }
-    .login-logo .brand-icon { font-size:48px; line-height:1; }
-    .login-logo h1 { font-size:26px; font-weight:800; color:#412402; margin:8px 0 4px; }
-    .login-logo p { font-size:13px; color:#9a7a5a; }
-    .form-group { margin-bottom:20px; }
-    .form-group label { display:block; font-size:13px; font-weight:600; color:#633806; margin-bottom:6px; }
-    .form-group input { width:100%; padding:12px 16px; border:2px solid #f0e0c8; border-radius:10px; font-size:14px; font-family:inherit; color:#412402; outline:none; transition:border-color .2s; box-sizing:border-box; }
-    .form-group input:focus { border-color:#EF9F27; }
-    .btn-login { width:100%; padding:14px; background:linear-gradient(135deg,#EF9F27,#BA7517); color:#fff; border:none; border-radius:10px; font-size:15px; font-weight:700; cursor:pointer; font-family:inherit; transition:opacity .2s,transform .1s; }
-    .btn-login:hover { opacity:.9; transform:translateY(-1px); }
-    .btn-login:active { transform:translateY(0); }
-    .login-error { color:#c0392b; background:#fdf0ef; border-radius:8px; padding:10px 14px; font-size:13px; margin-bottom:16px; display:none; }
-    .login-hint { text-align:center; margin-top:20px; font-size:12px; color:#b8956a; }
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      background: linear-gradient(135deg, #412402 0%, #633806 40%, #BA7517 100%);
+    }
+
+    .login-card {
+      background: #fff;
+      border-radius: 20px;
+      padding: 48px 40px;
+      width: 100%;
+      max-width: 400px;
+      box-shadow: 0 24px 64px rgba(65, 36, 2, .35);
+    }
+
+    .login-logo {
+      text-align: center;
+      margin-bottom: 32px;
+    }
+
+    .login-logo .brand-icon {
+      font-size: 48px;
+      line-height: 1;
+    }
+
+    .login-logo h1 {
+      font-size: 26px;
+      font-weight: 800;
+      color: #412402;
+      margin: 8px 0 4px;
+    }
+
+    .login-logo p {
+      font-size: 13px;
+      color: #9a7a5a;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    .form-group label {
+      display: block;
+      font-size: 13px;
+      font-weight: 600;
+      color: #633806;
+      margin-bottom: 6px;
+    }
+
+    .form-group input {
+      width: 100%;
+      padding: 12px 16px;
+      border: 2px solid #f0e0c8;
+      border-radius: 10px;
+      font-size: 14px;
+      font-family: inherit;
+      color: #412402;
+      outline: none;
+      transition: border-color .2s;
+      box-sizing: border-box;
+    }
+
+    .form-group input:focus {
+      border-color: #EF9F27;
+    }
+
+    .btn-login {
+      width: 100%;
+      padding: 14px;
+      background: linear-gradient(135deg, #EF9F27, #BA7517);
+      color: #fff;
+      border: none;
+      border-radius: 10px;
+      font-size: 15px;
+      font-weight: 700;
+      cursor: pointer;
+      font-family: inherit;
+      transition: opacity .2s, transform .1s;
+    }
+
+    .btn-login:hover {
+      opacity: .9;
+      transform: translateY(-1px);
+    }
+
+    .btn-login:active {
+      transform: translateY(0);
+    }
+
+    .login-error {
+      color: #c0392b;
+      background: #fdf0ef;
+      border-radius: 8px;
+      padding: 10px 14px;
+      font-size: 13px;
+      margin-bottom: 16px;
+      display: none;
+    }
+
+    .login-hint {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 12px;
+      color: #b8956a;
+    }
   </style>
 </head>
+
 <body>
   <div class="login-card">
     <div class="login-logo">
       <div class="brand-icon">🥐</div>
       <h1>Bake n' Roll</h1>
-      <p>Management System · Karachi</p>
+      <p>Management System · Peshawar</p>
     </div>
     <div class="login-error" id="loginError"></div>
     <form id="loginForm">
@@ -41,7 +135,8 @@
       </div>
       <div class="form-group">
         <label for="password">Password</label>
-        <input type="password" id="password" name="password" placeholder="••••••••" autocomplete="current-password" required />
+        <input type="password" id="password" name="password" placeholder="••••••••" autocomplete="current-password"
+          required />
       </div>
       <button type="submit" class="btn-login" id="loginBtn">Sign In</button>
     </form>
@@ -66,4 +161,5 @@
     });
   </script>
 </body>
+
 </html>
