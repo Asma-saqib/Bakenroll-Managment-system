@@ -88,33 +88,38 @@ INSERT IGNORE INTO users (username, password_hash) VALUES
 -- Categories
 INSERT IGNORE INTO categories (id, name) VALUES
   (1, 'Rolls'),
-  (2, 'Brownies'),
-  (3, 'Cookies'),
-  (4, 'Cakes'),
-  (5, 'Seasonal');
+  (2, 'Box patties'),
+  (3, 'Shami kebab'),
+  (4, 'Samosa'),
+  (5, 'Nuggets'),
+  (6, 'Meatballs');
 
 -- Sample Products (PKR prices)
 INSERT IGNORE INTO products (sku, name, category_id, price, stock_qty, reorder_threshold) VALUES
-  ('BNR-01', 'Classic Cinnamon Roll',  1,  450.00,  3, 10),
-  ('BNR-02', 'Lotus Biscoff Roll',     1,  550.00,  1, 10),
-  ('BNR-03', 'Red Velvet Roll',        1,  500.00, 14, 10),
-  ('BNR-04', 'Choco Lava Brownie',     2,  350.00,  7, 10),
-  ('BNR-05', 'Cookie Box (12 pcs)',    3,  900.00, 22, 10),
-  ('BNR-06', 'Custom Birthday Cake',  4, 3500.00,  8,  5);
+  ('BNR-01', 'Chicken Rolls',  1,  550.00,  10, 2),
+  ('BNR-02', 'Vegetable Rolls',     1,  500.00,  10, 2),
+  ('BNR-03', 'Chicken cheese',        2,  700.00, 5, 1),
+  ('BNR-04', 'Chicken shami',     3,  15,00.00,  4, 1),
+  ('BNR-05', 'Beef shami',    3,  1000.00, 5, 1),
+  ('BNR-06', 'Chicken Nuggets',  5, 600.00,  3,  1),
+  ('BNR-07', 'Chicken Cheese',  4, 600.00,  5,  1),
+  ('BNR-08', 'Chicken allu',  4, 500.00,  5,  1),
+  ('BNR-09', 'Classic Meatballs',  6, 1000.00,  2,  1),
+  ;
 
 -- Sample Customers
 INSERT IGNORE INTO customers (id, name, phone, source) VALUES
-  (1, 'Sara Ahmed',    '0300-1234567', 'instagram'),
-  (2, 'Bilal Khan',    '0321-9876543', 'whatsapp'),
-  (3, 'Hira Fatima',   '0333-4567890', 'walkin'),
-  (4, 'Usman Malik',   '0312-1122334', 'instagram'),
-  (5, 'Nadia Hussain', '0311-5544332', 'whatsapp');
+  (1, 'Sohail',    '0345-1965005', 'whatsapp'),
+  (2, 'Shumila',    '0347-2392672', 'instagram'),
+  (3, 'Mahnoor',   '0333-2654819', 'whatsapp'),
+  (4, 'Sidra',   '0311-5673249', 'instagram'),
+  (5, 'Farheen', '0333-2314562', 'whatsapp');
 
 -- Sample Orders
 INSERT IGNORE INTO orders (id, customer_id, channel, status, notes, total_amount, created_at) VALUES
-  (1, 1, 'instagram', 'delivered', 'Extra icing please',      1000.00, NOW() - INTERVAL 2 DAY),
-  (2, 2, 'whatsapp',  'baking',    NULL,                       900.00, NOW() - INTERVAL 1 DAY),
-  (3, 3, 'walkin',    'pending',   'Birthday for 20 people',  3500.00, NOW()),
+  (1, 1, 'whatsapp', 'delivered', 'Extra spices please',      1000.00, NOW() - INTERVAL 2 DAY),
+  (2, 2, 'instagram',  'baking',    NULL,                       900.00, NOW() - INTERVAL 1 DAY),
+  (3, 3, 'whatsapp',    'pending',   'Extra Salt',  3500.00, NOW()),
   (4, 4, 'instagram', 'ready',     NULL,                       550.00, NOW()),
   (5, 5, 'whatsapp',  'delivered', NULL,                      1400.00, NOW() - INTERVAL 3 DAY);
 
